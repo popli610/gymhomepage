@@ -1,0 +1,126 @@
+
+    /* CSS Reset */
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-image: url('/img/bg\ image.jpg');
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    
+    .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 5px;
+        top: 20px;
+    }
+    .left div{
+        text-align: center;
+        color: rgb(255, 255, 255);
+        /* font-family: 'Pacifico', cursive; */
+        /* font-family: 'Pacifico', cursive; */
+        /* font-family: 'Corinthia', cursive; */
+        /* font-family: 'Fuzzy Bubbles', cursive; */
+        font-family: 'Wallpoet', cursive;
+    }
+    .left img{
+        height: 60px;
+        width: 60px;
+        margin:0px 35%;
+        filter: invert(100%);
+    }
+    .right {
+        /* border: 2px solid green; */
+        display: inline-block;
+        position: absolute;
+        right: 10px;
+        top: 20px;
+    }
+
+    .mid {
+        /* border: 2px solid blue; */
+        display: block;
+        width: 50%;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .navbar {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .navbar li {
+        display: inline-block;
+        text-align: center;
+        font-size: 18x;
+    }
+
+    .navbar li a {
+        text-decoration: none;
+        padding: 9px 9px 9px 9px;
+        color: rgb(122, 127, 192);
+        /* font-family: 'Ubuntu Condensed', sans-serif; */
+        font-family: 'Pattaya', sans-serif;
+        font-size: 20px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(28, 36, 156);
+    }
+    .btn{
+        margin: 0px auto ;
+        color: rgb(12, 7, 7);
+        font-size: 18px;
+        background-color:rgb(156, 152, 147);
+        padding: 2px 5px;
+        border: rgba(32, 4, 4, 0);
+        border-radius: 10px;
+        cursor: pointer;
+        /* font-family: 'Bonheur Royale', cursive; */
+        font-family: 'Sofia', cursive;
+        width: 134px;
+        height: 35px;
+    }
+
+    .btn:hover{
+        background-color: rgb(147, 148, 94);
+    }
+    .container{
+        /* border: 2px solid darkslateblue; */
+        width: 37%;
+        padding: 22px 22px;
+        border-radius: 50px;
+        text-align: center;
+        margin: 70px 600px;
+        color: rgb(190, 212, 231);
+        font-family: 'Permanent Marker', cursive;
+
+    }
+    .form-group input{
+        font-size: 15px;
+        display: block;
+        padding: 3px;
+        text-align: center;
+        background: rgb(63, 65, 62);
+        color: rgba(196, 173, 173, 0.945); 
+        text-decoration: aquamarine;
+        margin: 4px auto;
+        width: 63%;
+        border-radius: 9px;
+        font-family: 'Pattaya', sans-serif;
+    }
+    
+    .form-group input::placeholder{
+        color: rgb(231, 231, 222);
+    }
+    
+    .container button{
+        padding: 5px;
+        margin: 20px;
+    }
